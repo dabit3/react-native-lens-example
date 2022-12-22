@@ -9,7 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@lens-protocol/react-native-lens-ui-kit": "^0.0.3",
+    "@lens-protocol/react-native-lens-ui-kit": "0.1.0",
     "@react-navigation/native": "^6.0.16",
     "@react-navigation/native-stack": "^6.9.4",
     "expo": "~47.0.8",

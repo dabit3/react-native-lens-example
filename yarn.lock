@@ -1493,10 +1493,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@lens-protocol/react-native-lens-ui-kit@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@lens-protocol/react-native-lens-ui-kit/-/react-native-lens-ui-kit-0.0.3.tgz#1a38e76dd80fc55b9cbdb6c4c3208bb2bd7a8e78"
-  integrity sha512-/ugKj0Pt+99RyIgrLx38eFh760USpvZU6qFt9901kwOL9UeeB4gFa2QNX0AR3BQ44zZn4thv95x3E0+zZ3hlNw==
+"@lens-protocol/react-native-lens-ui-kit@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@lens-protocol/react-native-lens-ui-kit/-/react-native-lens-ui-kit-0.1.0.tgz#431be7199a0da04a2a02375eb55ec168eba75aba"
+  integrity sha512-Rj8uanC1q2r3zs2RAfKGhukb93ORAW5yqn6bQKEWoM31bmUqV+9+J1fMJR8Vb4YL4QgKn9xwugDinjps0wNQYA==
   dependencies:
     "@graphql-codegen/fragment-matcher" "^3.3.1"
     date-fns "^2.29.3"
