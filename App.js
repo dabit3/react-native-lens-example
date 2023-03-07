@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { LensProvider } from '@lens-protocol/react-native-lens-ui-kit';
+import { LensProvider, Theme } from '@lens-protocol/react-native-lens-ui-kit';
 
 import Profiles from './Profiles'
 import ViewProfile from './ViewProfile'
@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator()
 
 export default function App() {
   return (
-    <LensProvider theme="dark">
+    <LensProvider theme={Theme.dark}>
       <NavigationContainer theme={DarkTheme}>
         <Stack.Navigator>
           <Stack.Screen name="Home" component={Profiles}  />
